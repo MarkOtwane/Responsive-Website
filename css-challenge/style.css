@@ -98,3 +98,28 @@
 
     }
 }
+
+.hang2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    
+    div{
+        background-color: white;
+        padding: 2rem 4rem 2rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        ion-icon{
+            font-size: 4rem;
+            color: #3f3fe9;
+        }
+        p{
+            color: gray;
+            font-size: 1.2rem;
+        }
+
+    }
+}
