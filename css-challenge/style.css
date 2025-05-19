@@ -203,9 +203,9 @@
             font-weight: bolder;
         }
         button{
-            margin-left: -9rem;
+            margin-left: -7rem;
             width: 7rem;
-            height: 4.95rem;
+            height: 5rem;
             background-color: rgb(32, 32, 236);
             border-radius: 5px;
             border: 1px solid white;
