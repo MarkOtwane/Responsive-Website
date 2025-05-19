@@ -185,12 +185,33 @@
     .subscribe{
         margin: 2rem;
         width: 65rem;
-        height: 6rem;
+        height: 5rem;
         background: linear-gradient(to right, rgb(63, 63, 219), rgb(218, 30, 108));
         display: flex;
         justify-content: space-between;
-        span{
-            background-color: transparent;
+        padding: 2rem;
+        h1{
+            color: white;
+        }
+        input{
+            border: 1px solid gray;
+            width: 35rem;
+            margin-left: 2rem;
+            border-radius: 5px;
+            padding: 1.5rem;
+            font-size: 1rem;
+            font-weight: bolder;
+        }
+        button{
+            margin-left: -9rem;
+            width: 7rem;
+            height: 4.95rem;
+            background-color: rgb(32, 32, 236);
+            border-radius: 5px;
+            border: 1px solid white;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
         }
     }
 }
