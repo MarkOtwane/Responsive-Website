@@ -4,7 +4,10 @@
 }
 
 .home{
-    background-image: url("#hero-cover 3.png");
+    background-image: url("./images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
     .header{
         display: flex;
         padding: 2rem;
@@ -39,5 +42,40 @@
             }
         }
     }
-    
+    .middleSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        color: white;
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            display: flex;
+            font-size: 2rem;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            button{
+                width: 10rem;
+                height: 3rem;
+                border-radius: 4rem;
+                border: 1px solid rgb(255, 255, 255);
+                background: transparent;
+                box-shadow: none;
+                color: white;
+                font-weight: bolder;
+                font-size: 18px;
+            }
+        }
+    }    
 }
