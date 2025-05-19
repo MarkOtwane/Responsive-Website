@@ -123,3 +123,52 @@
 
     }
 }
+
+.industry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+        gap: .5rem;
+        p{
+           color: grey; 
+        }
+
+    }
+    .ratings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        padding: 1.2rem;
+        margin-bottom: 15rem;
+        .person{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(175, 175, 175, 0.151);
+            padding: 1rem;
+            border-radius: 5px;
+            img{
+                margin-bottom: 2rem;
+            }
+            p{
+                color: gray;
+            }
+            .icons{
+                margin-bottom: 2rem;
+                ion-icon{
+                    color: yellow;
+                }
+            }
+        }
+    }
+}
