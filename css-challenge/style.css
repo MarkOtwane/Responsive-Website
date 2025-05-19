@@ -171,4 +171,14 @@
             }
         }
     }
+
+    .partners{
+        display: flex;
+        gap: 5rem;
+        padding: 2rem;
+        img{
+            width: 75px;
+            padding: 2rem;
+        }
+    }
 }
