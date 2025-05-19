@@ -79,3 +79,22 @@
         }
     }    
 }
+.hang{
+    display: flex;
+    justify-content: space-around;
+    /* pull it up using margin-top:of a negative value */
+    margin-top: -7rem;
+    div{
+        background-color: white;
+        padding: 2rem 4rem 2rem 2rem;
+        ion-icon{
+            font-size: 4rem;
+            color: #3f3fe9;
+        }
+        p{
+            color: gray;
+            font-size: 1.2rem;
+        }
+
+    }
+}
