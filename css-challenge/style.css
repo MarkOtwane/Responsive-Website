@@ -173,12 +173,24 @@
     }
 
     .partners{
+        margin-bottom: 5rem;
         display: flex;
         gap: 5rem;
         padding: 2rem;
         img{
             width: 75px;
             padding: 2rem;
+        }
+    }
+    .subscribe{
+        margin: 2rem;
+        width: 65rem;
+        height: 6rem;
+        background: linear-gradient(to right, rgb(63, 63, 219), rgb(218, 30, 108));
+        display: flex;
+        justify-content: space-between;
+        span{
+            background-color: transparent;
         }
     }
 }
