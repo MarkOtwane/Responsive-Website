@@ -224,5 +224,62 @@
     margin: 5rem;
     .typeSubscription{
         display: flex;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            div > .price{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+.branches{
+    background-color: rgb(11, 11, 17);
+    .top{
+        display: flex;
+        padding: 4rem;
+        color: white;
+        justify-content: space-around;
+        .left{
+            width: 27rem;
+        }
+    }
+    .map{
+        img{
+            width: 25rem;
+        }
+    }
+}
+
+.agency{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+    div{
+        li{
+            list-style: none;
+        }
+    }
+}
+
+.footer{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    .icons{
+        display: flex;
+        gap: 2rem;
+        font-size: 2rem;
     }
 }
