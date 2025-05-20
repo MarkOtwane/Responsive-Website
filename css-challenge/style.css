@@ -378,7 +378,7 @@
 }
 
 /* Media queries */
-@media screen and (max-width:964px) {
+@media screen and (max-width:980px) {
     .home{
         height: fit-content;
         padding: .5rem;
@@ -432,6 +432,15 @@
                    width: 100px;
                    height: auto; 
                 }
+            }
+        }
+        .partners{
+            margin-bottom: 2rem;
+            gap: 1rem;
+            padding: 1rem;
+            img{
+                width: 37.5px;
+                padding: 1rem;
             }
         }
     }
