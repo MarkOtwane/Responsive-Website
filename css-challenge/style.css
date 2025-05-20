@@ -341,6 +341,15 @@
     display: flex;
     justify-content: space-between;
     margin: 2rem;
+    button{
+        width: 12rem;
+        height: 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(66, 96, 230);
+        color: white;
+        font-weight: bold;
+    }
 }
 .lists{
     display: flex;
@@ -365,5 +374,36 @@
         ion-icon{
             color: rgb(28, 28, 238);
         }
+    }
+}
+
+/* Media queries */
+@media screen and (max-width:964px) {
+    .home{
+        background-size: contain;
+        height: 72vh;
+        padding: .5rem;
+        .header{
+            padding: 1rem;
+            .middle{
+                gap: 1rem;
+                li{
+                    font-size: 1rem;
+                }
+            }
+            .right{
+                gap: 1rem;
+                h2{
+                    font-size: 1rem;
+                }
+                button{
+                    width: 7rem;
+                    font-size: .5rem;
+                    height: 2rem;
+                    gap: .5rem;
+                }
+            }
+        }
+        
     }
 }
