@@ -382,6 +382,9 @@
         height: fit-content;
         padding: .5rem;
         .header{
+            h1{
+                font-size: 1rem;
+            }
             padding: 1rem;
             .middle{
                 gap: 1rem;
@@ -477,9 +480,25 @@
         gap: 2rem;
         padding-top: 0;
         padding-left: 0;
-        img{
-            
-        }
     }
     
+}
+
+@media screen and (max-width:683px) {
+    .home{
+        font-size: .3rem;
+        padding: 0.1rem;
+        .middle{
+            gap: .5rem;
+            li{
+                font-size: .2rem;
+            }
+        }
+    }
+    .pricing{
+        margin: 2rem;
+        .typeSubscription{
+            display: block;
+        }
+    }
 }
