@@ -299,7 +299,6 @@
 .bookform{
     margin-left: 30rem;
     display: flex;
-    margin-right: 23rem;
     gap: 7rem;
     padding: 4rem;
     background-color: #fff;
@@ -378,7 +377,7 @@
 }
 
 /* Media queries */
-@media screen and (max-width:980px) {
+@media screen and (max-width:1181px) {
     .home{
         height: fit-content;
         padding: .5rem;
@@ -442,6 +441,44 @@
                 width: 37.5px;
                 padding: 1rem;
             }
+        }
+        .subscribe{
+            width: 23rem;
+            h1{
+                font-size: .8rem;
+            }
+            input{
+                width: 12rem;
+            }
+            button{
+                margin-left: -3.5rem;
+                font-size: .8rem;
+            }
+        }
+    }
+    .branches{
+        height: 36vh;
+        .top{
+            padding: 2rem;
+            .left{
+                width: 12rem;
+                h1{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
+    .bookform{
+        margin-left: 10rem;
+        width: 23rem;
+        gap: 2rem;
+        padding-top: 0;
+        padding-left: 0;
+        img{
+            
         }
     }
     
